@@ -1,10 +1,21 @@
 <script>
+   import { goto } from "@sapper/app";
    let title = "";
    let details = "";
 
-   const handleSubmit = () => {
+   const handleSubmit = async () => {
       console.log("inside");
       console.log(title, details);
+      if (title.length && details.length) {
+         const res = await fetch("/jobs.json", {
+            method: "POST",
+            headers: { "Content-type": "application/json" },
+            body: JSON.stringify({ title, details }),
+         });
+         const updatedJobs = await res.json();
+         console.log(updatedJobs);
+         goto("jobs");
+      }
    };
 </script>
 
