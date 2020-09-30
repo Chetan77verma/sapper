@@ -16,11 +16,36 @@
 </script>
 
 <style>
+   ul {
+      padding: 0;
+   }
+   h2 {
+      text-align: center;
+   }
+   li {
+      list-style-type: none;
+   }
+   li a {
+      display: block;
+      padding: 15px;
+      border: 1px solid #f2f2f2;
+      border-radius: 8px;
+      margin: 10px auto;
+      text-decoration: none;
+   }
+   li a:hover {
+      background: #fbfbfb;
+   }
+   div {
+      text-align: center;
+   }
 </style>
 
-<div>List of all jobs</div>
+<h2>List of all jobs</h2>
 <ul>
    {#each jobs as job}
       <li><a href="/">{job.title}</a></li>
    {/each}
 </ul>
+
+<div><a href="jobs/create" class="btn">Add a new job</a></div>
