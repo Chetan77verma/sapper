@@ -34,7 +34,7 @@
 
 <div>
 	<img src="successkid.jpg" alt="logo" />
-	<h1>Find new Jobs</h1>
+	<h1>Jobs for ninjas</h1>
 	<p>Find your new assignments here</p>
 	<a href="jobs">View jobs</a>
 </div>

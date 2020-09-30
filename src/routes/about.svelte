@@ -2,7 +2,7 @@
 	<title>About</title>
 </svelte:head>
 
-<h1>About Job Ninja</h1>
+<h1>About Job Ninjas</h1>
 
 <p>
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus corrupti
