@@ -49,7 +49,12 @@
 			<li>
 				<a class:current={segment === 'contact'} href="contact">Contact</a>
 			</li>
-			<li><a class:current={segment === 'jobs'} href="jobs">Jobs</a></li>
+			<li>
+				<a
+					rel="prefetch"
+					class:current={segment === 'jobs'}
+					href="jobs">Jobs</a>
+			</li>
 		</ul>
 	</div>
 </nav>
