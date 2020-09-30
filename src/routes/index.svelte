@@ -1,3 +1,17 @@
+<script>
+	import { onMount } from "svelte";
+
+	console.log("home");
+
+	// onMount(() => {
+	// 	fetch("www.google.com/jobs");
+	// 	console.log("inside on mount");
+	// });
+
+	//try your to code safely because 1st landing page runs 1st on server and thenn on browser
+	// life cycle hooks are  for only browser so  they will not run on server
+</script>
+
 <style>
 	h1,
 	p {
