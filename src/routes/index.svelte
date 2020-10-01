@@ -50,5 +50,5 @@
 	<img src="successkid.jpg" alt="logo" />
 	<h1>Jobs for ninjas</h1>
 	<p>Find your new assignments here</p>
-	<a href="jobs">View jobs</a>
+	<a href="jobs" class="btn">View jobs</a>
 </div>
